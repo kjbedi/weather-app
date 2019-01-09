@@ -4,7 +4,7 @@ class Weather extends React.Component{
 	render(){
 		return(
 			<div>
-				Weather component
+				{this.props.temperature}
 			</div>
 		);
 	}
